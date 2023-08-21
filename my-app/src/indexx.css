@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(39, 33, 33);
+  padding: 1rem; /*1 rem=16px;*/
+}
+header > a {
+  color: white;
+  text-decoration: none;
+}
