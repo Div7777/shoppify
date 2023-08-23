@@ -1,15 +1,23 @@
-import React from 'react'
 
+import { Link, BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './screens/Home'
+import Productscreen from './screens/productscreen'
 const App1p = () => {
     return (
-        <div>
-            <header>
-                <a href='/'>shoppify</a>
-            </header>
-            <main>
-                list product
-            </main>
-        </div>
+        <BrowserRouter>
+            <div>
+                <header>
+                    <Link to='/'>shoppify</Link>
+                </header>
+                <main>
+                    <Routes>
+                        <Route path='/product/:slug' element={<Productscreen />} />
+                        <Route path='/' element={<Home />} />
+                    </Routes>
+
+                </main>
+            </div>
+        </BrowserRouter>
     )
 }
 
