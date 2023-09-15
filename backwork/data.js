@@ -45,29 +45,29 @@ const data = {
         },
         {
             // _id: '3',
-            name: 'puma shirt',
-            slug: 'puma-slim-shirt',
-            category: 'Shirts',
+            name: 'puma pant',
+            slug: 'puma-slim-pant',
+            category: 'pant',
             image: '/images/mia.jpg',
             price: 120,
             countInStock: '10',
             brand: 'puma',
             rating: 4.5,
             numReviews: 10,
-            description: 'good shirt'
+            description: 'good pant'
         },
         {
             // _id: '4',
-            name: 'Campus shirt',
-            slug: 'Campus-slim-shirt',
-            category: 'Shirts',
+            name: 'Campus pant',
+            slug: 'Campus-slim-pant',
+            category: 'pants',
             image: '/images/prat.jpg',
             price: 120,
             countInStock: '10',
             brand: 'Campus',
             rating: 4.5,
             numReviews: 10,
-            description: 'good shirt'
+            description: 'good pant'
         }
     ]
 }
