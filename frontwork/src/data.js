@@ -44,7 +44,7 @@ const data = {
             name: 'Campus shirt',
             slug: 'Campus-slim-shirt',
             category: 'Shirts',
-            image: '/images/ak.jpg',
+            image: '/images/prat.jpg',
             price: 120,
             coutInStock: 10,
             brand: 'Campus',
