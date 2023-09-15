@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.site-container {
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
+/* Products */
+.card-product img {
+  min-width: 100px;
+}
+/* add to cart button */
+.btn-primary {
+  background-color: rgb(63, 113, 198);
+}
+.rating span {
+  color: rgb(63, 113, 198);
+}
+.img-large {
+  /* max-width: 80%; */
+  max-height: 90vh;
+}
+
+/* cart-items */
+.img-thumbnail {
+  height: 80px;
+}
+
+.small-cont {
+  max-width: 600px;
+}
+
+/* its for checkout steps  */
+.checkout-steps > div {
+  border-bottom: 0.2rem solid grey;
+  color: rgb(159, 153, 142);
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid red;
+  color: orange;
+}
